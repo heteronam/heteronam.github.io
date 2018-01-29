@@ -83,15 +83,15 @@
                     <li>
                         <a class="page-scroll" href="#introduction">Intro</a>
                     </li>
-                    <!--li>
+                    <li>
                         <a class="page-scroll" href="#program">Schedule</a>
-                    </li-->
+                    </li>
                     <li>
                         <a class="page-scroll" href="#keynote">Keynotes</a>
                     </li>
-                    <!--li>
+                    <li>
                         <a class="page-scroll" href="#papers">Accepted Papers</a>
-                    </li-->
+                    </li>
                     <li>
                         <a class="page-scroll" href="#call">CFP</a>
                     </li>
@@ -126,7 +126,7 @@
                   Held in conjunction with <a href="http://www.wsdm-conference.org/2018/" target=_blank>WSDM'18</a></br>
                   Feb 9, 2018 - Los Angeles, California, USA, 2018
                 </div>
-                <a href="#call" target=_blank class="page-scroll btn btn-xl">Call for Papers</a>
+                <a href="#program" target=_blank class="page-scroll btn btn-xl">Schedule</a>
             </div>
         </div>
     </header>
@@ -165,10 +165,24 @@
     </section>
 
     <!-- Program Section -->
+    <section id="program" class="bg-mid-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Schedule</h2>
+                    <h3 class="section-subheading text-muted">Schedule will be announced soon.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 text-left">
+                &nbsp;
+              </div>
+          </div>
+        </div>
+    </section>
 
-  
     <!-- Keynote Section no abstract -->
-    <section id="keynote" class="bg-mid-gray">
+    <section id="keynote"><!-- class="bg-mid-gray"-->
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -176,7 +190,7 @@
                     <!--h3 class="section-subheading text-muted">Additional keynote speakers will be announced soon!</h3-->
                 </div>
             </div>
-              <br/><br/>
+              <br/>
               <div class="row">
                   <div class="col-sm-3">
                       <div class="team-member">
@@ -386,6 +400,265 @@
 
 
     <!-- Accepted Papers Section -->
+    <section id="papers" class="bg-mid-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Accepted Papers</h2>
+                    <!--h3 class="section-subheading text-muted">Accepted papers will be announced by the end of June.</h3-->
+                </div>
+            </div>
+            <div class="row">
+
+            <div class="col-lg-1 text-center">
+                &nbsp;
+            </div>
+
+            <div class="col-lg-11 text-justify">
+                  <!-- Begin Paper List -->
+
+                  <p class="large text-muted">
+                  <strong>Robust Overlapping Community Detection via Constrained Egonet Tensor Decomposition</strong> 
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid5">Abstract</button> 
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#bib5">BibTex</button> 
+                  <a href="papers/HeteroNAM_2018_paper_5.pdf" target=_blank class="btn btn-primary btn-xs" role="button">PDF</a> 
+                  <br/>
+                  <i>Fatemeh Sheikholeslami and Georgios B. Giannakis</i><br/>
+
+                  <div id="pid5" class="collapse">
+                  <strong>Abstract:</strong> The task of community detection  over complex networks is of paramount importance in a multitude of applications. The present work puts forward a top-to-bottom community identification approach, termed DC-EgoTen, in which an egonet-tensor (EgoTen) based algorithm is developed in a divide-and-conquer (DC) fashion for breaking the network into smaller subgraphs, out of which the underlying communities progressively emerge. In particular, each step of DC-EgoTen forms a multi-dimensional egonet-based representation of the graph, whose  induced structure enables casting  the task of overlapping community identification as a constrained PARAFAC decomposition. Thanks to the higher representational capacity of tensors, the novel egonet-based representation improves the quality of detected communities by capturing multi-hop connectivity patterns of the network. In addition, the top-to-bottom approach ensures successive refinement of identified communities, so that the desired resolution is achieved. Synthetic as well as real-world tests corroborate the effectiveness of DC-EgoTen. 
+                    
+                  (This work has been recently published as a regular paper in IEEE Intl. Conf.  on Data Mining (ICDM), New Orleans, LA, 2017.)
+                  <br/><br/><strong>Keywords:</strong> Overlapping community detection, egonet subgraphs, tensor decomposition, constrained PARAFAC
+                  <hr/>
+                  </div>
+
+                  <div id="bib5" class="collapse">
+                  @inproceedings{heteronam2018Paper5,<br/>
+                  title={Robust Overlapping Community Detection via Constrained Egonet Tensor Decomposition},<br/>
+                  author={Fatemeh Sheikholeslami and Georgios B. Giannakis},<br/>
+                  booktitle={Proceedings of the 1st International Workshop on Heterogeneous Networks Analysis and Mining (HeteroNAM)},<br/>
+                  year={2018}<br/>
+                  }
+                  <hr/>
+                  </div>
+
+                  </p>
+
+                  <p class="large text-muted">
+                  <strong>SMACD: Semi-supervised Multi-Aspect Community Detection</strong> 
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid1">Abstract</button> 
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#bib1">BibTex</button> 
+                  <a href="papers/HeteroNAM_2018_paper_1.pdf" target=_blank class="btn btn-primary btn-xs" role="button">PDF</a> 
+                  <br/>
+                  <i>Ekta Gujral and Evangelos Papalexakis</i><br/>
+
+                  <div id="pid1" class="collapse">
+                  <strong>Abstract:</strong> Community detection in real-world graphs has been shown to benefit from using multi-aspect information, e.g., in the form of “means of communication” between nodes in the network. An orthogonal line of work, broadly construed as semi-supervised learning, approaches the problem by introducing a small percentage of node assignments to communities and propagates that knowledge throughout the graph. In this paper, we introduce SMACD, a novel semi-supervised multi-aspect community detection. To the best of our knowledge, SMACD is the first approach to incorporate multi-aspect graph information and semi-supervision, while being able to discover communities.We extensively evaluate SMACD’s performance in comparison to state-of-the-art approaches across six real and two synthetic datasets and demonstrate that SMACD, through combining semi-supervision and multi-aspect edge information, outperforms the baselines.
+                  <br/><br/><strong>Keywords:</strong> Community Detection, Tensors, Tensor Decomposition, Coupled Matrix Tensor Factorization, Semi-supervised Learning
+                  <hr/>
+                  </div>
+
+                  <div id="bib1" class="collapse">
+                  @inproceedings{heteronam2018Paper1,<br/>
+                  title={SMACD: Semi-supervised Multi-Aspect Community Detection},<br/>
+                  author={Ekta Gujral and Evangelos Papalexakis},<br/>
+                  booktitle={Proceedings of the 1st International Workshop on Heterogeneous Networks Analysis and Mining (HeteroNAM)},<br/>
+                  year={2018}<br/>
+                  }
+                  <hr/>
+                  </div>
+
+                  </p>
+
+                  <p class="large text-muted">
+                  <strong>From homogeneous to heterogeneous network alignment</strong> 
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid4">Abstract</button> 
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#bib4">BibTex</button> 
+                  <a href="papers/HeteroNAM_2018_paper_4.pdf" target=_blank class="btn btn-primary btn-xs" role="button">PDF</a> 
+                  <br/>
+                  <i>Shawn Gu, John Johnson, Fazle Faisal and Tijana Milenkovic</i><br/>
+
+                  <div id="pid4" class="collapse">
+                  <strong>Abstract:</strong>     Network alignment (NA) aims to find a node mapping between the compared networks that uncovers regions of high similarity. Existing NA methods are homogeneous; that is, they deal with networks containing nodes and edges of one type. These methods compute node similarities and find high scoring alignments with respect to these similarities, while simultaneously maximizing the number of conserved edges. However, due to the increasing amount of network data with nodes and edges of different types, we generalize three recent state-of-the-art homogeneous NA methods, WAVE, MAGNA++, and SANA, to enable heterogeneous NA for the first time. We introduce two novelties to do this. First, we generalize homogeneous graphlets, which have been proven as a measure of node similarity, to their heterogeneous counterparts. Second, we generalize $S^3$, a homogeneous measure of edge conservation that has been proven in homogeneous NA, to its heterogeneous counterpart. In evaluations on synthetic networks and real-world biological data, using these optimizations for heterogeneous NA lead to better alignments and better robustness to noise in the data than their homogeneous counterparts.
+
+                  <br/><br/><strong>Keywords:</strong> network alignment, heterogeneous networks, heterogeneous network alignment, graphlets, heterogeneous graphlets
+                  <hr/>
+                  </div>
+
+                  <div id="bib4" class="collapse">
+                  @inproceedings{heteronam2018Paper4,<br/>
+                  title={From homogeneous to heterogeneous network alignment},<br/>
+                  author={Shawn Gu, John Johnson, Fazle Faisal and Tijana Milenkovic},<br/>
+                  booktitle={Proceedings of the 1st International Workshop on Heterogeneous Networks Analysis and Mining (HeteroNAM)},<br/>
+                  year={2018}<br/>
+                  }
+                  <hr/>
+                  </div>
+
+                  </p>
+
+                  <p class="large text-muted">
+                  <strong>Discovering Hidden Structure in High Dimensional Human Behavioral Data via Tensor Factorization</strong> 
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid9">Abstract</button> 
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#bib9">BibTex</button> 
+                  <a href="papers/HeteroNAM_2018_paper_9.pdf" target=_blank class="btn btn-primary btn-xs" role="button">PDF</a> 
+                  <br/>
+                  <i>Homa Hosseinmardi, Hsien-Te Kao, Kristina Lerman and Emilio Ferrara</i><br/>
+
+                  <div id="pid9" class="collapse">
+                  <strong>Abstract:</strong> In recent years, the rapid growth in technology has increased the opportunity for longitudinal human behavioral studies. Rich multimodal data, from wearables like Fitbit, online social networks, mobile phones etc. can be collected in natural environments. Uncovering the underlying low-dimensional structure of noisy multi-dimensional data in an unsupervised setting is a challenging problem. Tensor factorization has been  successful in extracting the interconnected low dimensional descriptions of multi-dimensional data. In this paper, we apply non-negative tensor factorization on a real-word wearable sensor data, StudentLife, to find latent temporal factors and group of individuals. Meta data is available for the semester schedule, as well as  the individuals' performance and personality. We demonstrate that non-negative tensor factorization can successfully discover clusters of individuals who exhibit higher academic performance, as well as those who frequently engage in leisure activities. The recovered latent temporal patterns associated with these groups are validated against ground truth data to demonstrate the accuracy of our framework.
+                  <br/><br/><strong>Keywords:</strong> Tensor Factorization, Human Behavior, Wearable Sensors
+                  <hr/>
+                  </div>
+
+                  <div id="bib9" class="collapse">
+                  @inproceedings{heteronam2018Paper9,<br/>
+                  title={Discovering Hidden Structure in High Dimensional Human Behavioral Data via Tensor Factorization},<br/>
+                  author={Homa Hosseinmardi, Hsien-Te Kao, Kristina Lerman and Emilio Ferrara},<br/>
+                  booktitle={Proceedings of the 1st International Workshop on Heterogeneous Networks Analysis and Mining (HeteroNAM)},<br/>
+                  year={2018}<br/>
+                  }
+                  <hr/>
+                  </div>
+
+                  </p>
+
+                  <p class="large text-muted">
+                  <strong>Multifaceted Event Analysis on Cross-Media Network Data</strong> 
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid8">Abstract</button> 
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#bib8">BibTex</button> 
+                  <a href="papers/HeteroNAM_2018_paper_8.pdf" target=_blank class="btn btn-primary btn-xs" role="button">PDF</a> 
+                  <br/>
+                  <i>Daheng Wang, Meng Jiang, Xueying Wang, Nitesh Chawla and Paul Brunts</i><br/>
+
+                  <div id="pid8" class="collapse">
+                  <strong>Abstract:</strong> Events such as shootings, protests, flight crashes and new public policies are broadcasted across news media and social media in our society. Different media sources cover different facets of the events. In this work, we extend the idea of heterogeneous information network to formulate and study "cross-media information network''. We propose a multifaceted analysis framework that models four critical facets to fully understand the events across social media network and news media network. The facets include media type for differentiating event information sources; content for discovering events from unstructured text; sentiment for quantifying user reflection on events; and, time for turning events into dynamic evolving objects. We evaluate our framework on a real-world cross-media network based on Twitter and Google News. Experiments demonstrate our framework can generate interesting and useful event description and visualization for human inspection.
+                  <br/><br/><strong>Keywords:</strong> multifaceted analysis, event analysis, cross-media network, heterogeneous network
+                  <hr/>
+                  </div>
+
+                  <div id="bib8" class="collapse">
+                  @inproceedings{heteronam2018Paper8,<br/>
+                  title={Multifaceted Event Analysis on Cross-Media Network Data},<br/>
+                  author={Daheng Wang, Meng Jiang, Xueying Wang, Nitesh Chawla and Paul Brunts},<br/>
+                  booktitle={Proceedings of the 1st International Workshop on Heterogeneous Networks Analysis and Mining (HeteroNAM)},<br/>
+                  year={2018}<br/>
+                  }
+                  <hr/>
+                  </div>
+
+                  </p>
+
+                  <p class="large text-muted">
+                  <strong>Enhancing spatial query results using semantics and multiplex networks</strong> 
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid2">Abstract</button> 
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#bib2">BibTex</button> 
+                  <a href="papers/HeteroNAM_2018_paper_2.pdf" target=_blank class="btn btn-primary btn-xs" role="button">PDF</a> 
+                  <br/>
+                  <i>Manesh Pillai and George Karabatis</i><br/>
+
+                  <div id="pid2" class="collapse">
+                  <strong>Abstract:</strong> Geographic information retrieval (GIR) research mainly focuses on finding relevant geographic artifacts along one layer, although answers to queries should preferably include artifacts across multiple layers. This paper addresses this limitation, by exploiting relationships that exist between geographical objects of the same or different types.  Given the existence of these relationships we can infer additional indirect semantic relationships between geographical objects that otherwise would be ignored. This semantic information contains multiple dimensions.  This research creates a mathematical model of semantically relevant geographic objects that belong to different layers using the construct of multiplex networks.  The proposed model respects and extends the “layered” structure of geographic data, and enhances the results of queries made to a GIS. A prototype system has been implemented over an existing GIS relational database. Experiments with the prototype show significant improvements in the results of queries, measured using precision and recall.
+                  <br/><br/><strong>Keywords:</strong> Geographic Information Retreival (GIR), Geographic Information Systems (GIS), Multiplex Networks, Semantic Link Networks
+                  <hr/>
+                  </div>
+
+                  <div id="bib2" class="collapse">
+                  @inproceedings{heteronam2018Paper2,<br/>
+                  title={Enhancing spatial query results using semantics and multiplex networks},<br/>
+                  author={Manesh Pillai and George Karabatis},<br/>
+                  booktitle={Proceedings of the 1st International Workshop on Heterogeneous Networks Analysis and Mining (HeteroNAM)},<br/>
+                  year={2018}<br/>
+                  }
+                  <hr/>
+                  </div>
+
+                  </p>
+
+                  <p class="large text-muted">
+                  <strong>Biological Systems as Heterogeneous Information Networks: A Mini-review and Perspectives</strong> 
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid3">Abstract</button> 
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#bib3">BibTex</button> 
+                  <a href="papers/HeteroNAM_2018_paper_3.pdf" target=_blank class="btn btn-primary btn-xs" role="button">PDF</a> 
+                  <br/>
+                  <i>Koki Tsuyuzaki and Itoshi Nikaido</i><br/>
+
+                  <div id="pid3" class="collapse">
+                  <strong>Abstract:</strong> In the real world, most objects and data have multiple types of attributes and inter-connections. Such data structures are named “Heterogeneous Information Networks” (HIN) and have been widely researched. Biological systems are also considered to be highly complicated HIN. In this work, we review various applications of HIN methods to biological and chemical data, discuss some advanced topics, and describe some future research directions.
+                  <br/><br/><strong>Keywords:</strong> Heterogeneous Information Network, Omics Data Analysis, Random Walk, Meta-path, Network Embedding
+                  <hr/>
+                  </div>
+
+                  <div id="bib3" class="collapse">
+                  @inproceedings{heteronam2018Paper3,<br/>
+                  title={Biological Systems as Heterogeneous Information Networks: A Mini-review and Perspectives},<br/>
+                  author={Koki Tsuyuzaki and Itoshi Nikaido},<br/>
+                  booktitle={Proceedings of the 1st International Workshop on Heterogeneous Networks Analysis and Mining (HeteroNAM)},<br/>
+                  year={2018}<br/>
+                  }
+                  <hr/>
+                  </div>
+
+                  </p>
+
+                  <p class="large text-muted">
+                  <strong>StackSeq2Seq: Dual Encoder Seq2Seq Recurrent Networks</strong> 
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid6">Abstract</button> 
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#bib6">BibTex</button> 
+                  <a href="papers/HeteroNAM_2018_paper_6.pdf" target=_blank class="btn btn-primary btn-xs" role="button">PDF</a> 
+                  <br/>
+                  <i>Alessandro Bay and Biswa Sengupta</i><br/>
+
+                  <div id="pid6" class="collapse">
+                  <strong>Abstract:</strong> A widely studied non-deterministic polynomial time (NP) hard problem lies in finding a route between the two nodes of a graph. Often meta-heuristics algorithms such as $A^{*}$ are employed on graphs with a large number of nodes. Here, we propose a deep recurrent neural network architecture based on the Sequence-2-Sequence (Seq2Seq) model, widely used, for instance in text translation. Particularly, we illustrate that utilising a context vector that has been learned from two different recurrent networks enables increased accuracies in learning the shortest route of a graph. Additionally, we show that one can boost the performance of the Seq2Seq network by smoothing the loss function using a homotopy continuation of the decoder's loss function.
+                  <br/><br/><strong>Keywords:</strong> shortest path, recurrent neural networks, homotopy continuation
+                  <hr/>
+                  </div>
+
+                  <div id="bib6" class="collapse">
+                  @inproceedings{heteronam2018Paper6,<br/>
+                  title={StackSeq2Seq: Dual Encoder Seq2Seq Recurrent Networks},<br/>
+                  author={Alessandro Bay and Biswa Sengupta},<br/>
+                  booktitle={Proceedings of the 1st International Workshop on Heterogeneous Networks Analysis and Mining (HeteroNAM)},<br/>
+                  year={2018}<br/>
+                  }
+                  <hr/>
+                  </div>
+
+                  </p>
+
+                  <p class="large text-muted">
+                  <strong>Highly Accurate Link Prediction in Networks Using Stacked Generalization</strong> 
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#pid10">Abstract</button> 
+                  <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#bib10">BibTex</button> 
+                  <a href="papers/HeteroNAM_2018_paper_10.pdf" target=_blank class="btn btn-primary btn-xs" role="button">PDF</a> 
+                  <br/>
+                  <i>Amir Ghasemian, Aram Galstyan and Aaron Clauset</i><br/>
+
+                  <div id="pid10" class="collapse">
+                  <strong>Abstract:</strong> Link prediction is an important task in complex networks which has a wide variety of applications in recommendation systems. Although many community detection methods can be used in this end, the recently proved No Free Lunch theorem for community detection implies that each makes some kind of trade-off, and no algorithm can be optimal on all inputs. Different algorithms will thus over- or under-fit on different inputs, finding more, fewer, or just different communities than is optimal. Therefore, algorithms vary widely in how many communities they find in a given input, and these differences induce wide variation in accuracy on link prediction task. On the other hand, stacked generalization approach helps to design a high-level classification model via combining the lower-level models. The goal is to have better predictive performance by learning and fusing the best performance of each link prediction algorithm in different feature configurations. In this paper, we present a novel ensemble approach on link prediction using stacked generalization and show that via this approach we can achieve a higher precision and recall compared to each algorithm and to the best-overall-predictors. We present our results on 11 edge prediction algorithms on a novel and diverse corpus of 406 diverse real-world networks.
+                  <br/><br/><strong>Keywords:</strong> Link Prediction, Stacked Generalization, Complex Networks
+                  <hr/>
+                  </div>
+
+                  <div id="bib10" class="collapse">
+                  @inproceedings{heteronam2018Paper10,<br/>
+                  title={Highly Accurate Link Prediction in Networks Using Stacked Generalization},<br/>
+                  author={Amir Ghasemian, Aram Galstyan and Aaron Clauset},<br/>
+                  booktitle={Proceedings of the 1st International Workshop on Heterogeneous Networks Analysis and Mining (HeteroNAM)},<br/>
+                  year={2018}<br/>
+                  }
+                  <hr/>
+                  </div>
+
+                  </p>
+
+                  <!-- End Paper List -->
+            </div>
+          </div>
+        </div>
+    </section>
 
     <!-- Call for Papers Section -->
     <section id="call"> <!--class="bg-mid-gray"-->
